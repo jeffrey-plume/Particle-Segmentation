@@ -23,12 +23,12 @@ def prepare_data(images_dir, masks_dir, test_size=0.2):
 
 if __name__ == '__main__':
 
-    images_dir = "C:/Users/Lenovo/OneDrive/Documents/GitHub/Synthetic Images/emps-main/images"
-    masks_dir = "C:/Users/Lenovo/OneDrive/Documents/GitHub/Synthetic Images/emps-main/segmaps"
+    images_dir = "images"
+    masks_dir = "segmaps"
     
     # Prepare data_
     imgs, ground_Truth = prepare_data(images_dir, masks_dir)
-    model = models.CellposeModel(model_type="C:/Users/Lenovo/OneDrive/Documents/GitHub/Synthetic Images/models/segmentEMPD.pth")
+    model = models.CellposeModel(model_type="models/segmentEMPD.pth")
     predictions, flows, styles = model.eval(imgs, channels=[1,2])
 ```
 
