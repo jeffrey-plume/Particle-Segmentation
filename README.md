@@ -62,7 +62,7 @@ for images, masks, pred in zip(imgs, ground_Truth, predictions):
 
 
     
-![png](predictions_files/predictions_1_1.png)
+![png](small/small_1_1.png)
     
 
 
@@ -86,7 +86,7 @@ for images, masks, pred in zip(imgs, ground_Truth, predictions):
 
 
     
-![png](predictions_files/predictions_1_5.png)
+![png](small/small_1_5.png)
     
 
 
@@ -116,13 +116,13 @@ for images, masks, pred in zip(imgs, ground_Truth, predictions):
 
 
     
-![png](predictions_files/predictions_1_10.png)
+![png](small/small_1_10.png)
     
 
 
 
     
-![png](predictions_files/predictions_1_11.png)
+![png](small/small_1_11.png)
     
 
 
@@ -134,7 +134,7 @@ for images, masks, pred in zip(imgs, ground_Truth, predictions):
 
 
     
-![png](predictions_files/predictions_1_13.png)
+![png](small/small_1_13.png)
     
 
 
@@ -158,7 +158,7 @@ for images, masks, pred in zip(imgs, ground_Truth, predictions):
 
 
     
-![png](predictions_files/predictions_1_17.png)
+![png](small/small_1_17.png)
     
 
 
